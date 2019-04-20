@@ -1,0 +1,133 @@
+body{
+	font-family: Montserrat;
+	font-weight: 300;
+	color: #fff;
+}
+.navbar{
+	background-color: rgba(26,26,26,0.9) !important;
+	padding-top:50px;
+	padding-bottom: 20px ;
+	font-size:15px
+}
+.collapse ul{
+	padding-right:450px
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+/* sub-menu */
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color:;
+	z-index: 1;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.navbar img{
+	padding-left:70px
+}
+.navbar li a{
+	color:white !important;
+}
+.navbar li a:hover{
+	color:#ba933e !important;
+}
+.carousel-inner img {
+    width: 100%;
+}
+h2 {
+    margin-left: -16px;
+}
+
+.hn-review-button h2 {
+    padding-bottom: 27px;
+    padding-right: 100px;
+    position: relative;
+    line-height: 46px;
+    padding-top: 2px;
+    font-size: 46px;
+    font-weight: 500;
+    color: #000;
+ }
+ .container {
+    padding-top: 63px;
+    padding-bottom: 99px;
+}
+.hn-review-button p {
+    font-size: 15px;
+    color: #888;
+    margin: 15px 0px 15px -20px;
+    padding: 0px 20px 0px 0px;
+}
+.hn-review-button .btn {
+	margin-left: -120px;
+    margin-top: 34px;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 10px;
+    background-color: #000;
+    color:white;
+}
+.hn-review-button .btn:hover {
+	background: #ba933e;
+	}
+@media (max-width: 992px){
+.navbar{
+	background-color: rgba(26,26,26,0.9) !important;
+	padding-top:50px;
+	padding-bottom: 20px ;
+}
+.collapse ul{
+	padding-right:450px
+}
+.navbar img{
+	padding-left:70px
+}
+.navbar li a{
+	color:white !important;
+}
+.navbar li a:hover{
+	color:#ba933e !important;
+}
+}
+@media (max-width: 768px){	
+.navbar{
+	background-color: rgba(26,26,26,0.9) !important;
+	padding-top:50px;
+	padding-bottom: 20px ;
+}
+.collapse ul{
+	padding-right:450px
+}
+.navbar img{
+	padding-left:70px
+}
+.navbar li a{
+	color:white !important;
+}
+.navbar li a:hover{
+	color:#ba933e !important;
+}
+}
+@media (max-width: 576px){
+.navbar{
+	background-color: rgba(26,26,26,0.9) !important;
+	padding-top:50px;
+	padding-bottom: 20px ;
+}
+.collapse ul{
+	padding-right:450px
+}
+.navbar img{
+	padding-left:70px
+}
+.navbar li a{
+	color:white !important;
+}
+.navbar li a:hover{
+	color:#ba933e !important;
+}
+}
