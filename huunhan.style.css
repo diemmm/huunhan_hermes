@@ -9,6 +9,10 @@ a:hover{
 	color: black;
 	text-decoration: none;
 }
+img{
+	max-width: 100%;
+	height:auto;
+}
 
 
 
@@ -26,7 +30,7 @@ a:hover{
 	color:#666666;
 	font-size:14px ;
 }
-.hn-header .login:hover{
+.hn-header .login a:hover{
 	color:white;
 }
 
@@ -34,7 +38,7 @@ a:hover{
 
 .sub-menu{
 	height: 50px;
-	border-bottom: 1px solid #666666;
+	border-bottom: 1px solid #262626;
 	color: #666666;
 /* 	padding: 0 0 20px 0; */
 }
@@ -58,7 +62,7 @@ a:hover{
 	
 }
 .sub-menu .login{
-	border-left: 1px solid #666666;
+	border-left: 1px solid #262626;
 	padding-bottom: 10px;
 	font-size:14px
 }
@@ -79,16 +83,17 @@ a:hover{
 	padding: 30px 20px;
 	display: inline-block;
 	margin:0;
+	color:white
 }
 
-.menu .logo img{
-	 width: 131px;
-    height: 26.36px;
-}
 .menu{
 	height: 106px;
+	margin: 0;
+	padding: 0;
 }
-
+.menu .logo{
+	
+}
 .menu  li a:hover{
 	color:#ba933e;
 }
@@ -97,9 +102,14 @@ a:hover{
 	padding-bottom: 27px;
 }
 .menu .icon a i{
-	margin: 0 20px;
+	padding-bottom:30px;
+	margin-left:20px;
 	color: white;
-	font-size:1.3rem
+	font-size:1rem
+}
+.collapse {
+	margin-left:50px;
+	font-size:0.9rem
 }
 .menu .dropdown-content{
 	display: none;
@@ -120,8 +130,7 @@ a:hover{
 }
 .menu .dropdown-content a{
 	color:#222
-}
-
+} 
 
 .hn-slide .carousel-indicators li{
 	width: 10px;
@@ -132,28 +141,26 @@ a:hover{
 .hn-slide .carousel-indicators .active{
 	background-color :#ba933e;
 }
-
+.hn-bo-suu-tap{
+	padding:70px 70px
+}
 .hn-bo-suu-tap h2{
+	    margin-bottom: 40px;
 	color: #000000;
-	padding:50px 0px 30px 50px;
 	font-size:46px
 }
 .hn-bo-suu-tap p{
 	font-size: 15px;
-	margin: 15px 0 15px 15px;
-	padding: 0px 30px 0px 30px;
+	    margin-bottom: 40px;
+
 }
 .hn-bo-suu-tap .btn{
 	display: inline-block;
     padding: 11px 30px;
-    margin-top: 10px 10px 10px 10px;
     background-color: #000;
     -webkit-border-radius: 0;
             border-radius: 0;
     color: white;
-}
-.hn-bo-suu-tap .btn{
-	 margin: 30px 0 50px 50px
 }
 .hn-bo-suu-tap .btn:hover{
 	background: #ba933e;
@@ -162,23 +169,24 @@ a:hover{
 
 
 
-.hn-deal-noi-bat {
-	width: 100%;
-	height: 813px;
+.hn-deal-noi-bat{
+	background-position: top center;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	color: white;
 }
+.hn-deal-noi-bat h1{
+	padding-top:30px;
+	font-weight: 600;
+}
+.hn-deal-noi-bat p{
+	margin-bottom:50px
+} 
 
-.hn-hn-deal-noi-bat .hn-caption h2{
-    padding-top: 50px;
-}
 
-.hn-deal-noi-bat img{
-	padding-bottom: 50px;
-}
-.hn-deal-noi-bat .fluid h2{
-	color: black;
-    font-size: 2rem;
-    font-weight: 500;
-    margin-bottom: 0;
+.hn-tat-ca-san-pham{
+	padding-top:70px;
 }
 
 .hn-tat-ca-san-pham .hn-all-sp p{
@@ -200,6 +208,9 @@ a:hover{
 }
 
 
+.hn-tin-tuc {
+	padding:70px 70px
+}
 .hn-tin-tuc .hn-blog h2{
 	font-size: 3rem;
 }
@@ -207,6 +218,7 @@ a:hover{
 
 
 .hn-review {
+	padding: 50px 50px;
 	color:#DDDDDD;
 	padding-bottom:50px;
 	border-bottom: 2px dotted #292929;
@@ -223,7 +235,6 @@ a:hover{
 }
 .review-title h4{
 	font-weight: 500;
-	padding-top:50px;
 }
 
 
@@ -271,7 +282,7 @@ a:hover{
 
 
 .hn-last-footer {
-	height: 112px;
+	
 	padding-top: 20px;
     padding-bottom: 30px;
 }
@@ -281,19 +292,23 @@ a:hover{
     margin-left: -15px;
 }
 .hn-last-footer .row span{
+	
 	color: #ba933e;
-	margin-top:10px;
-	margin-right: 20px;
-	font-size:18px
+	font-size:0.85rem;
+	font-weight: bold;
+	line-height: 30px;
 }
 .hn-last-footer .mail{
-	width: 300px;
+	margin:0;
+	border: none;
+    padding:5px 20px;
+	width: 100%;
 	padding-left: 20px;
 }
 .hn-last-footer .btn{
 	display: inline-block;
-    padding: 8px 26px 5px 35px;
-    margin: 0px -3px 0px 14px;
+    padding:5px 30px;
+    margin: 0;
     background-color: #ba933e;
     -webkit-border-radius: 0;
             border-radius: 0;
@@ -308,38 +323,29 @@ a:hover{
 .hn-last-footer .footer{
 }
 
-.col-xs-12 {
-    width: 100%;
-    padding-top:170px;
-    padding-bottom:100px
-}
-.col-xs-12 h1 a{
-	font-weight: 600;
-	color: #575454
-}
-.col-xs-12 h1 a:hover{
-	color:#ba933e;
-}
-.col-xs-12 .title {
-	color: #adadad;
-	font-size: 14px;
-}
-.col-xs-12 .title span:hover{
-	color:#ba933e
-}
-.col-xs-12 p{
-	    margin: 33px 0px 35px 0px;
-}
-.col-xs-12 span{
-	font-weight: 500;
-	font-size:14px;
-	margin-bottom: 2rem;
-}
-.col-xs-12 span i{
-	padding-top:10px;
-	padding-bottom: 50px;
-}
 
+.breadcrumb{
+	background-color: white;
+	font-size: 14px;
+	padding: 0;
+	margin:0;
+	border-radius: 0;
+	font-weight: 500
+}
+.breadcrumb li>p {
+    display: inline-block;
+    font-size: 14px;
+}
+.breadcrumb li>a {
+	color: #adadad;	
+}
+.page-title {
+    padding-top:170px;
+}
+.page{
+	 margin: 30px 10px;
+
+}
 
 .page-login{
 	height: 460px;
@@ -507,4 +513,69 @@ background: #A07E33;
 	width: 100%;
 	font-size: 14px;
 }
+// CSS cho phần nav
+.owl-theme .owl-nav [class*=owl-] {
+    background: transparent;
+}
 
+.owl-theme .owl-nav {
+    position: relative;
+    bottom: 140px;
+}
+
+.owl-prev {
+    position: absolute;
+    left: -50px;
+}
+
+.owl-next {
+    position: absolute;
+    right: -50px;
+}
+
+// CSS cho phần dots
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #e09422;
+    width: 30px;
+    transition: all 0.5s;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #e09422;
+}
+
+
+@media (max-width: 575.98px){
+	
+}
+
+@media  (max-width: 767.98px){
+	.hn-last-footer .btn{
+		margin-top:10px;
+	}
+	
+}
+
+
+@media (max-width: 991.98px) {
+	.hn-header{
+	background: #262626;
+	position: relative;
+	width: 100%;
+	z-index: 0;
+	}
+	.hn-deal-noi-bat{
+		background-image: url(hn_images/huunhan-mobile-deal.jpg) !important;
+	}
+}
+
+
+@media  (max-width: 1199.98px){
+	
+}
+
+
+@media (min-width: 1200px) {
+
+}
